@@ -1,0 +1,136 @@
+.App {
+    text-align: center;
+  }
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  .App-link {
+    color: #61dafb;
+  }
+  *{
+    margin: 0;
+  }
+  .col-sm-6{
+    padding-top: 3%;
+  }
+  .navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5px;
+    font-size: 20px;
+    font-weight: 600;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .h1{
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  .h2{
+    font-size: 2.5rem; 
+    color: #333; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+    text-align: center;
+  }
+  .h3{
+    font-weight: bolder;
+    color: rgb(75, 75, 131);
+    padding-top: 1%;
+  }
+  .h5{
+    font-weight: bolder;
+    color: rgb(230, 88, 88);
+  }
+  
+  #opt-btn{
+    text-align: left;
+  }
+  .timer{
+    text-align: center; 
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 2rem; 
+      color:red;
+      margin: 20px 0; 
+      margin: 0.5px; 
+      padding: 10px; 
+      background-color:white;    
+  }
+  .regis{
+    text-align: start;
+    font-weight: bolder;
+    font-size: large;
+    font-family: serif;
+    padding-top: -5%;
+  }
+  .list-group-item{
+    text-align: left;
+    font-weight: 600;
+    
+  }
+  #next{
+    margin-top: 2%;
+    margin-right: 0.5%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-link{
+    color: black;
+  }
+  ul{
+    padding-top: 8%;
+    padding-bottom: 6%;
+  }
+  .h4{
+    text-align: start;
+  }
+  #opt-btn{
+    margin: 0.5%;
+  }
+  #btn{
+    margin-top: 0.5%;
+  }
+  .dd,.dt{
+    font-size: larger;
+  }
+  .card{
+     border: thin;
+  }
+  .logo{
+    color: black;
+  }
+  #list{
+    list-style-type: none; 
+        padding: 0;
+        border: 1px solid #ccc; 
+        background-color: #f8f9fa;
+        margin: 5px 0; 
+        padding: 10px; 
+  }
+  .rounded-pill{
+    width: 100px;
+    padding: 10px;
+  }
+  #logo2{
+    padding: 2%;
+    margin-top: 5%;
+  }
+  .body{
+    display: grid;
+    height: 100%; 
+  }
+  .label{
+    display: block;
+    margin-bottom: 10px;
+  }
+  .text{
+    margin-left: 5%;
+  }
